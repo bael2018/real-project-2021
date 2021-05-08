@@ -216,6 +216,10 @@ body{
     .product_pic{
         width: 96%;
     }
+
+    .product_pic_inner{
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 1325px){
