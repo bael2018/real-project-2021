@@ -108,6 +108,7 @@ body{
     color: rgb(2, 51, 124);
     font-weight: 500;
     font-size: 27px;
+    cursor: pointer;
 }
 
 .register_body form label input{

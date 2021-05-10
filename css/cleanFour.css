@@ -56,17 +56,6 @@ body{
     text-transform: uppercase;
 }
 
-.clean_body span h3::before{
-    content: "";
-    background: rgb(0, 183, 255);
-    width: 30px;
-    height: 30px;
-    top: 25px;
-    left: -70px;
-    position: absolute;
-    border-radius: 50%;
-}
-
 .clean_body span p{
     margin: 5px 0;
 }
@@ -136,7 +125,6 @@ body{
     .clean_body{
         margin-top: 150px;
         width: 65%;
-        margin-left: 50px;
     }
 }
 
@@ -168,12 +156,6 @@ body{
         font-size: 28px;
     }
 
-    .clean_body span h3::before{
-        width: 25px;
-        height: 25px;
-        top: 20px;
-    }
-    
     .clean_btn1{
         width: 200px;
         height: 90px;
@@ -212,10 +194,6 @@ body{
 
     .clean_body span p{
         font-size: 27px;
-    }
-
-    .clean_body span h3::before{
-        top: 16px;
     }
 
     .clean_btn1{
@@ -375,7 +353,6 @@ body{
 
     .clean_body{
         width: 75%;
-        margin-left: 40px;
     }
 
     .clean_body p{
@@ -481,7 +458,7 @@ body{
 
     .clean_body{
         width: 80%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .clean_child button{
@@ -545,10 +522,6 @@ body{
 
     .clean_buttons{
         margin-top: 70px;
-    }
-
-    .clean_body span h3::before{
-        display: none;
     }
 
     .clean_body{
