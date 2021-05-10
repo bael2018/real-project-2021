@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+/* info_container */
+
+.info_container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.info_title h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 15px;
+    font-weight: 800;
+    margin-bottom: 140px;
+    color: rgb(2, 51, 124);
+}
+
+.info_banner{
+    background: url('../img/media-9.png') center / cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.info_body{
+    margin-top: 150px;
+    width: 65%;
+}
+
+.info_body p{
+    font-size: 35px;
+    color: rgb(2, 51, 124);
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.info_body span{
+    margin-top: 75px;
+    display: block;
+}
+
+.info_body span h3{
+    color: rgb(2, 51, 124);
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.margin_upper{
+    margin-top: 200px;
+    color: rgb(2, 51, 124);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.info_body span p{
+    margin: 0px;
+}
+
+.info_banner2{
+    width: 100%;
+    height: 2250px;
+    margin: 150px 0;
+}
+
+.info_banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.margin_alt{
+    margin: 40px 0 !important;
+}
+
+/* Buttons */
+
+.info_buttons{
+    margin-top: 250px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info_child button{
+    outline: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.info_btn1{
+    border: none;
+    background:rgb(0, 183, 255);
+    width: 250px;
+    height: 110px;
+    border-radius: 50px;
+    font-size: 35px;
+    margin-left: 0px !important;
+    color: white;
+    font-weight: 600;
+}
+
+.info_btn2{
+    width: 110px;
+    background: none;
+    height: 110px;
+    border: 5px solid rgb(0, 183, 255);
+    border-radius: 80px;
+    font-size: 35px;
+    color: rgb(0, 183, 255);
+    font-weight: 600;
+}
+
+.info_child a{
+    text-decoration: none;
+    background:rgb(0, 183, 255);
+    width: 330px;
+    height: 100px;
+    border-radius: 80px;
+    font-size: 33px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+
+/* Адаптация */
+
+
+@media screen and (max-width: 2400px){
+    
+    .info_banner{
+        height: 900px;
+    }
+
+    .info_banner2{
+        height: 2100px;
+    }
+}
+
+@media screen and (max-width: 2300px){
+    
+    .info_banner{
+        height: 870px;
+    }
+
+    .info_banner2{
+        height: 2000px;
+    }
+
+    .info_title h2{
+        font-size: 63px;
+        letter-spacing: 10px;
+    }
+}
+
+@media screen and (max-width: 2200px){
+    
+    .info_banner2{
+        height: 1900px;
+    }
+
+    .info_body{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 2100px){
+    
+    .info_banner{
+        height: 870px;
+    }
+
+    .info_banner2{
+        height: 1800px;
+    }
+
+    .info_body{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 2000px){
+
+    .info_title h2{
+        font-size: 61px;
+        letter-spacing: 7px;
+    }
+
+    .info_banner2{
+        height: 1700px;
+    }
+
+    .info_body span h3{
+        font-size: 45px;
+    }
+
+    .margin_upper{
+        font-size: 43px;
+    }
+}
+
+@media screen and (max-width: 1850px){
+
+    .info_banner{
+        height: 800px;
+    }
+
+    .info_title h2{
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+
+    .info_banner2{
+        height: 1600px;
+    }
+    
+    .margin_upper{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1750px){
+
+    .info_banner{
+        height: 750px;
+    }
+
+    .info_banner2{
+        height: 1500px;
+    }
+
+    .info_title h2{
+        font-size: 60px;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+
+    .info_body{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1650px){
+
+    .info_banner{
+        height: 700px;
+    }
+
+    .info_body span h3{
+        font-size: 39px;
+    }
+
+    .margin_upper{
+        font-size: 38px;
+    }
+
+    .info_body p{
+        font-size: 30px;
+    }
+    
+    .info_banner2{
+        height: 1400px;
+    }
+
+    .info_btn1{
+        width: 250px;
+        height: 90px;
+    }
+    
+    .info_btn2{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .info_child a{
+        height: 90px;
+    }
+        
+    .info_buttons{
+        margin-top: 180px;
+    }
+
+    .info_title h2{
+        font-size: 57px;
+    }
+}
+
+@media screen and (max-width: 1550px){
+
+    .info_banner2{
+        height: 1300px;
+    }
+
+    .info_title h2{
+        font-size: 57px;
+        letter-spacing: 0px;
+    }
+
+    .info_banner{
+        height: 650px;
+    }
+
+    .info_body p{
+        font-size: 28px;
+    }
+
+    .info_body span h3{
+        font-size: 36px;
+    }
+
+    .margin_upper{
+        font-size: 35px;
+    }
+
+    .info_btn1{
+        height: 85px;
+    }
+    
+    .info_btn2{
+        height: 85px;
+    }
+    
+    .info_child a{
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+
+    .info_title h2{
+        font-size: 52px;
+        margin-bottom: 110px;
+    }
+
+    .info_banner2{
+        height: 1200px;
+    }
+
+    .info_body p{
+        font-size: 26px;
+    }
+
+    .info_body span h3{
+        font-size: 33px;
+    }
+
+    .margin_upper{
+        font-size: 32px;
+    }
+
+    .info_btn1{
+        height: 80px;
+        width: 200px;
+        font-size: 26px;
+    }
+    
+    .info_btn2{
+        height: 80px;
+        font-size: 26px;
+    }
+    
+    .info_child a{
+        height: 80px;
+        width: 270px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+
+    .info_title h2{
+        font-size: 49px;
+        margin-bottom: 100px;
+    }
+
+    .info_body{
+        width: 80%;
+    }
+
+    .info_banner2{
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 1326px){
+
+    .info_title h2{
+        font-size: 45px;
+    }
+
+    .info_btn1{
+        height: 70px;
+        width: 170px;
+        font-size: 23px;
+    }
+    
+    .info_btn2{
+        height: 70px;
+        width: 70px;
+        font-size: 23px;
+    }
+    
+    .info_child a{
+        height: 70px;
+        width: 230px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .info_title h2{
+        font-size: 42px;
+    }
+
+    .info_banner{
+        height: 600px;
+    }
+
+    .info_body p{
+        font-size: 23px;
+    }
+
+    .info_body span h3{
+        font-size: 28px;
+    }
+
+    .margin_upper{
+        font-size: 27px;
+    }
+
+    .info_banner2{
+        height: 1000px;
+    }
+
+    .margin_upper{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+
+    .info_title h2{
+        font-size: 40px;
+    }
+
+    .info_banner{
+        height: 550px;
+    }
+
+    .info_banner2{
+        height: 900px;
+        margin: 90px 0;
+    }
+
+    .span_alt{
+        margin-top: 0px !important;
+    }
+
+    .info_body{
+        margin-top: 80px;
+    }
+
+    .info_body p{
+        font-size: 20px;
+    }
+
+    .info_body span h3{
+        font-size: 25px;
+    }
+
+    .margin_upper{
+        font-size: 24px;
+    }
+
+    .info_body span{
+        margin-top: 50px;
+    }
+
+    .info_buttons{
+        margin-top: 130px;
+    }
+
+    .info_btn1{
+        height: 60px;
+        width: 150px;
+        font-size: 23px;
+    }
+    
+    .info_btn2{
+        height: 60px;
+        width: 60px;
+        font-size: 23px;
+    }
+    
+    .info_child a{
+        height: 60px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .info_child button{
+        margin: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .info_title h2{
+        font-size: 36px;
+    }
+
+    .info_banner2{
+        margin: 70px 0;
+    }
+
+    .info_body p{
+        font-size: 19px;
+    }
+
+    .info_body span h3{
+        font-size: 23px;
+    }
+
+    .margin_upper{
+        font-size: 21px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .info_banner{
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 975px){
+
+    .info_title h2{
+        font-size: 33px;
+    }
+
+    .info_banner2{
+        height: 800px;
+    }
+
+    .margin_upper{
+        margin-top: 70px;
+    }
+
+    .info_btn1{
+        height: 60px;
+        width: 140px;
+        font-size: 21px;
+    }
+    
+    .info_btn2{
+        height: 60px;
+        width: 60px;
+        font-size: 21px;
+    }
+    
+    .info_child a{
+        height: 60px;
+        width: 190px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .info_title h2{
+        font-size: 30px;
+    }
+
+    .info_banner{
+        height: 490px;
+    }
+
+    .info_banner2{
+        height: 720px;
+    }
+
+    .info_body p{
+        font-size: 18px;
+    }
+
+    .info_body span h3{
+        font-size: 21px;
+    }
+
+    .margin_upper{
+        font-size: 20px;
+    }
+
+    .info_body{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 775px){
+
+    .info_banner{
+        height: 460px;
+    }
+
+    .info_banner2{
+        height: 670px;
+    }
+}
+
+@media screen and (max-width: 730px){
+
+    .info_title h2{
+        font-size: 28px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .info_banner2{
+        height: 630px;
+    }
+
+    .info_body p{
+        font-size: 16px;
+    }
+
+    .info_body span h3{
+        font-size: 19px;
+    }
+
+    .margin_upper{
+        font-size: 18px;
+    }
+
+    .info_body span{
+        margin-top: 35px;
+    }
+
+    .info_btn1{
+        height: 55px;
+        width: 120px;
+        font-size: 21px;
+    }
+    
+    .info_btn2{
+        height: 55px;
+        width: 55px;
+        font-size: 21px;
+    }
+    
+    .info_child a{
+        height: 55px;
+        width: 180px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .info_banner{
+        height: 430px;
+    }
+
+    .info_banner2{
+        height: 590px;
+    }
+
+    .info_title h2{
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .info_container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .info_banner{
+        height: 400px;
+    }
+
+    .info_banner2{
+        height: 520px;
+    }
+
+    .info_body{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .info_btn1{
+        height: 50px;
+        width: 110px;
+        font-size: 19px;
+    }
+    
+    .info_btn2{
+        height: 50px;
+        width: 50px;
+        font-size: 19px;
+    }
+    
+    .info_child a{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .info_child button{
+        margin: 0px 8px;
+    }
+    
+    .info_banner2{
+        height: 480px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 475px){
+
+    .info_banner2{
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 435px){
+
+    .info_banner2{
+        height: 410px;
+    }
+
+    .info_body p{
+        font-size: 15px;
+    }
+
+    .info_body span h3{
+        font-size: 18px;
+    }
+
+    .margin_upper{
+        font-size: 17px;
+    }
+
+    .info_title h2{
+        font-size: 25px;
+    }
+
+    .info_btn1{
+        height: 45px;
+        width: 95px;
+        font-size: 17px;
+    }
+    
+    .info_btn2{
+        height: 45px;
+        width: 45px;
+        font-size: 17px;
+    }
+    
+    .info_child a{
+        height: 45px;
+        width: 150px;
+        font-size: 14px;
+    }
+    
+    .info_buttons{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .info_banner{
+        height: 370px;
+    }
+    
+    .info_banner2{
+        height: 390px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .info_banner{
+        height: 350px;
+    }
+
+    .info_buttons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info_child:nth-child(2){
+        margin-top: 30px;
+    }
+
+    .info_child button{
+        margin: 0 10px !important;
+    }
+
+    .info_banner2{
+        height: 350px;
+    }
+
+    .margin_alt{
+        margin: 20px 0 !important;
+    }
+    
+    .info_title h2{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .info_banner2{
+        height: 320px;
+    }
+
+    .info_body{
+        margin-top: 70px;
+    }
+}

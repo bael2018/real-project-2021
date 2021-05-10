@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+/* register_container */
+
+.register_container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.register_title h2{
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 15px;
+    font-weight: 800;
+    margin-bottom: 140px;
+    color: rgb(2, 51, 124);
+}
+
+.register_title p{
+    font-size: 35px;
+    color: rgb(2, 51, 124);
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.register_body{
+    margin-top: 150px;
+    width: 45%;
+}
+
+.width_hundred{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.width_hundred input{
+    width: 94%;
+    padding: 25px 3%;
+    outline: none;
+    font-size: 30px;
+    color: rgb(0, 183, 255);
+    border: none;
+    border-bottom: 3px solid rgb(2, 51, 124);
+}
+
+::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 30px;}
+
+.diplay_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.diplay_flex input{
+    padding: 25px 3%;
+    outline: none;
+    font-size: 30px;
+    color: rgb(0, 183, 255);
+    border: none;
+    border-bottom: 3px solid rgb(2, 51, 124);
+}
+
+.diplay_flex_alt1 input:nth-child(1){
+    width: 24%;
+}
+
+.diplay_flex_alt1 input:nth-child(2){
+    width: 49%;
+}
+
+.diplay_flex_alt2 input:nth-child(2){
+    width: 24%;
+}
+
+.diplay_flex_alt2 input:nth-child(1){
+    width: 49%;
+}
+
+.text_up{
+    margin-top: 100px;
+}
+
+.text_up textarea{
+    width: 94%;
+    padding: 25px 3%;
+    outline: none;
+    font-size: 30px;
+    color: rgb(0, 183, 255);
+    border: none;
+    border-bottom: 3px solid rgb(2, 51, 124);
+}
+
+.register_body form label{
+    margin-top: 110px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(2, 51, 124);
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.register_body form label input{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: #000 !important;
+}
+
+.register_body form label input::before{
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 88%;
+    left: -3px;
+    border: 4px solid rgb(2, 51, 124);
+}
+
+.submitBtn{
+    margin-top: 110px;
+}
+
+.submitBtn input{
+    background:rgb(0, 183, 255);
+    width: 330px;
+    height: 100px;
+    border-radius: 80px;
+    font-size: 33px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
+/* Адаптация */
+
+@media screen and (max-width: 2350px){
+    
+    .register_body{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 2150px){
+    
+    .register_body{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1950px){
+    
+    .register_body{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1950px){
+    
+    .register_body{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1750px){
+    
+    .register_body{
+        width: 65%;
+    }
+
+    .register_title h2{
+        font-size: 65px;
+        letter-spacing: 10px;
+        margin-bottom: 120px;
+    }
+
+    .submitBtn input{
+        width: 290px;
+        height: 85px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+
+    .register_title h2{
+        font-size: 65px;
+        letter-spacing: 10px;
+        margin-bottom: 100px;
+    }
+
+    .register_title p{
+        font-size: 32px;
+    }
+
+    .register_body{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+
+    .register_title h2{
+        font-size: 60px;
+        letter-spacing: 6px;
+    }
+
+    .register_body{
+        width: 75%;
+    }
+    .diplay_flex input,
+    .register_body textarea,
+    .width_hundred input{
+        font-size: 25px;
+    }
+    
+    ::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 25px;}
+    
+    .register_body form label{
+        font-size: 24px;
+    }
+
+    .submitBtn input{
+        width: 250px;
+        height: 90px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1326px){
+
+    .register_title h2{
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    .register_title p{
+        font-size: 29px;
+    }
+
+    .diplay_flex input,
+    .register_body textarea,
+    .width_hundred input{
+        font-size: 21px;
+    }
+    
+    ::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 22px;}
+
+    .register_body{
+        margin-top: 100px;
+    }
+        
+    .register_body form label{
+        font-size: 22px;
+    }
+
+    .submitBtn input{
+        width: 220px;
+        height: 75px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .register_title h2{
+        font-size: 48px;
+        letter-spacing: 0px;
+    }
+
+    .register_title p{
+        font-size: 27px;
+    }
+
+    .register_body form label{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .register_title h2{
+        font-size: 45px;
+        letter-spacing: 0px;
+    }
+
+    .register_title p{
+        font-size: 24px;
+    }
+
+    .register_body form label{
+        font-size: 20px;
+    }
+
+    .register_body form label input{
+        width: 35px;
+        height: 35px;
+    }
+
+    .submitBtn input{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .register_body{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .register_body{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 935px){
+
+    .register_title h2{
+        font-size: 40px;
+    }
+
+    .register_body{
+        width: 90%;
+    }
+
+    .diplay_flex input,
+    .register_body textarea,
+    .width_hundred input{
+        font-size: 19px;
+    }
+    
+    ::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 19px;}
+
+    .register_title p{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 890px){
+
+    .register_body{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 830px){
+
+    .register_body{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 775px){
+    
+    .register_body form label{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 735px){
+    
+    .register_body form label{
+        font-size: 19px;
+        line-height: 1.6;
+    }
+    
+    .register_body form label input{
+        width: 35px;
+        height: 35px;
+        margin-right: 50px;
+    }
+
+    .register_body form label input::before{
+        left: -2px;
+        border: 3px solid rgb(2, 51, 124);
+    }
+}
+
+@media screen and (max-width: 688px){
+    
+    .register_body form label input::before{
+        height: 83%;
+        left: -2px;
+    }
+}
+
+@media screen and (max-width: 645px){
+    
+    .register_body form label input::before{
+        top: 2px;
+        height: 75%;
+        left: -2px;
+    }
+
+    .register_body form label input{
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media screen and (max-width: 620px){
+
+    .register_body form label input{
+        width: 41px;
+        height: 41px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .register_body form label input{
+        width: 45px;
+        height: 45px;
+    }
+
+    .register_title h2{
+        font-size: 37px;
+    }
+
+    .register_body form label input::before{
+        top: 4px;
+        height: 70%;
+    }
+
+    .submitBtn input{
+        width: 190px;
+        height: 70px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .register_body form label input::before{
+        top: 3px;
+        height: 72%;
+        left: 0px;
+    }
+
+    .register_body form label input{
+        width: 50px;
+        height: 45px;
+    }
+
+    .register_body form label{
+        font-size: 18px;
+    }
+        
+    .diplay_flex input{
+        width: 94% !important;
+        margin-bottom: 60px;
+    }
+
+    .diplay_flex{
+        margin-bottom: 0px;
+    }
+
+    .text_up{
+        margin-top: 0px;
+    }
+
+    .diplay_flex_alt1 input:nth-child(1){
+        width: 24% !important;
+    }
+    
+    .diplay_flex_alt1 input:nth-child(2){
+        width: 49% !important;
+    }
+
+    .diplay_flex input,
+    .register_body textarea,
+    .width_hundred input{
+        font-size: 18px;
+    }
+    
+    ::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 18px;}
+}
+
+@media screen and (max-width: 530px){
+
+    .register_body form label{
+        margin-top: 75px;
+    }
+        
+    .register_body form label input{
+        width: 55px;
+    }
+}
+
+@media screen and (max-width: 475px){
+
+    .register_body form label input{
+        width: 60px;
+        margin-right: 35px;
+    }
+
+    .register_title h2{
+        font-size: 33px;
+    }
+
+    .register_title p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .register_body form label{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 410px){
+
+    .register_title p{
+        font-size: 18px;
+    }
+
+    .register_title h2{
+        font-size: 30px;
+    }
+
+    .register_body form label{
+        font-size: 17px;
+    }
+
+    .register_body form label input{
+        width: 70px;
+    }
+
+    .register_body form label{
+        font-size: 16px;
+    }
+
+    .submitBtn input{
+        width: 100%;
+        height: 75px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 350px){
+
+    .register_body form label input{
+        width: 80px;
+    }
+
+    .diplay_flex input,
+    .register_body textarea,
+    .width_hundred input{
+        font-size: 16px;
+    }
+    
+    ::-webkit-input-placeholder {color: rgb(0, 183, 255); font-size: 16px;}
+
+    
+    .register_title p{
+        font-size: 17px;
+    }
+
+    .register_title h2{
+        font-size: 27px;
+        margin-bottom: 60px;
+    }
+
+    .register_body form label{
+        font-size: 16px;
+    }
+
+    .register_body{
+        margin-top: 80px;
+    }
+}
